@@ -9,6 +9,8 @@ public class Inteiros2 {
 	Scanner sc = new Scanner (System.in);
 	Inteiros obj = new Inteiros();
 	
+	System.out.println("entre com dois valores \n");
+	
 	obj.x = sc.nextInt();
 	obj.y = sc.nextInt();
 

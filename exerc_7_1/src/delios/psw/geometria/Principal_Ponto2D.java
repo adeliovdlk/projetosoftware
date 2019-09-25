@@ -1,4 +1,4 @@
-package delios.psw;
+package delios.psw.geometria;
 
 public class Principal_Ponto2D {
 

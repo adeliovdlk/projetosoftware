@@ -11,16 +11,14 @@ public class Nome_Digitos_3_1 {
 	
 	
 	public int escreveDigitos(int numero){
-		String aux="",aux2="";
+		String aux2="";
 		aux2+=numero;
 		int vet[]= new int[5];
 		String vet2[] = new String[5];
-		int y=0;
-		//for (int i=0;i<5;i++) {
+		
 			for(int i =0;i<aux2.length();i++){
 	            vet[i] = aux2.charAt(i)-48;		
 			
-			//for(y=0;y<5;y++){
 				if(vet[i]==1){
 					vet2[i]="Um,";
 					System.out.printf(vet2[i]);

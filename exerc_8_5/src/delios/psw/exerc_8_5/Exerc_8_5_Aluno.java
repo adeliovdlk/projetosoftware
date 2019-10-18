@@ -1,6 +1,6 @@
 package delios.psw.exerc_8_5;
-
-public class Exerc_8_5_Aluno {
+import delios.psw.Pessoa;
+public class Exerc_8_5_Aluno extends Pessoa {
 
 		public String curso;
 		

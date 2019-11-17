@@ -1,8 +1,8 @@
 package delios.psw.exer_16_4;
 
 public class Fila {
-	NoFila inicio;
-	NoFila fim;
+	No_Fila inicio;
+	No_Fila fim;
 
 	int tamanho;
 
@@ -24,7 +24,7 @@ public class Fila {
 	}
 
 	public boolean queue(Object obj) { // Inserir no começo da fila
-		NoFila no = new NoFila(obj);
+		No_Fila no = new No_Fila(obj);
 
 		if (tamanho == 0) { 
 			inicio = no;
@@ -44,10 +44,10 @@ public class Fila {
 		}
 	}
 
-	public NoFila dequeue() {
+	public No_Fila dequeue() {
 
 		if (tamanho > 0) {
-			NoFila no = fim;
+			No_Fila no = fim;
 			fim = no.anterior;
 
 			tamanho--;

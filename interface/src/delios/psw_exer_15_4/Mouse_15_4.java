@@ -43,6 +43,7 @@ public class Mouse_15_4 extends JFrame {
 		add(status, BorderLayout.SOUTH);
 
 		mousePanel.addMouseListener(new MouseListener() {
+			
 
 			@Override
 			public void mouseClicked(MouseEvent event) {

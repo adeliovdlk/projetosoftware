@@ -4,6 +4,8 @@ public class Aplicacao_Circulo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+			new Exerc_15_5_circulo();
 
 	}
 

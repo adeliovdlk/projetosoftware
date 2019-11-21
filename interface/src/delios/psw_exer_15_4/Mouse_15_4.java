@@ -151,15 +151,7 @@ public class Mouse_15_4 extends JFrame {
 			
 			
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				
 	}
 		
 	

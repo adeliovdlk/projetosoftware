@@ -5,10 +5,13 @@ package delios.psw.exer_25_6;
 
 	import edu.udc.psw.modelo.FormaGeometrica;
 	import edu.udc.psw.modelo.Linha;
-	import edu.udc.psw.modelo.Ponto2D;
-	import edu.udc.psw.modelo.manipulador.ManipuladorFormaGeometrica;
-	import edu.udc.psw.colecao.Iterador;
-	import edu.udc.psw.colecao.ListaEncadeada;
+	
+	import delios.psw.colecao.Iterador;
+	import delios.psw.colecao.ListaEncadeada;
+	import delios.psw.formasGeometricas.ManipulandoFormasGeometricas;
+	import delios.psw.formasGeometricas.ManipulandoPonto2D;
+	
+	
 
 	import java.awt.Graphics;
 	import java.awt.event.MouseEvent;
@@ -22,15 +25,12 @@ package delios.psw.exer_25_6;
 		private boolean desenhando = false;
 		private ManipulandoFormaGeometricas manipulador;
 
-		//private Ponto2D ponto;
-		//private Linha linha;
+		
 		private FormasGeometricas forma;
 		
 		private ListaEncadeada<FormaGeometricas> listaFormaGeometrica;
 
-		/**
-		 * Create the panel.
-		 */
+		
 		public PainelDesenho() {
 			
 			listaFormaGeometrica = new ListaEncadeada<FormaGeometrica>();
